@@ -9,7 +9,7 @@ Student ID : 202401262
 "THE SNAKE GAME"
 
 
-
+<body>
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
@@ -198,3 +198,4 @@ int main() {
     cout << "Game Over! Final Score: " << game.score << endl;
     return 0;
 }
+</body>
