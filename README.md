@@ -17,6 +17,7 @@
 - [Collision Detection](#collision-detection)
 - [Score Tracking](#score-tracking)
 - [Game Loop and Logic](#game-loop-and-logic)
+- [Compiation and Execution](#compilation-and-execution)
 - [Screenshot](#screenshot)
 - [Conclusion](#conclusion)
 - [License](#license)
@@ -63,6 +64,12 @@ The game operates within a loop that continuously updates the game state. The lo
 4. Checking for collisions with the walls or itself, and terminating the game if necessary.
 
 The loop continues until the player either decides to quit or the game ends due to a collision.
+
+## Compilation and Execution
+To compile the program, use a C++ compiler like g++:
+g++ InSem1Project.cpp -o InSem1Project
+Run the executable:
+./InSem1Project
 
 ## Screenshot
 Below is a screenshot of the game in action:
