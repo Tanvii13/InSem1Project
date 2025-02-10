@@ -67,8 +67,11 @@ The loop continues until the player either decides to quit or the game ends due 
 
 ## Compilation and Execution
 To compile the program, use a C++ compiler like g++:
+
 g++ InSem1Project.cpp -o InSem1Project
+
 Run the executable:
+
 ./InSem1Project
 
 ## Screenshot
