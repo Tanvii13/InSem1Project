@@ -5,8 +5,7 @@
 ### Student ID : 202401262
 
 # "THE SNAKE GAME"
-<br>
-<br>
+
 ## Contents
 ### 1. Overview
 ### 2. Game Features
