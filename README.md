@@ -17,7 +17,7 @@
 - [Collision Detection](#collision-detection)
 - [Score Tracking](#score-tracking)
 - [Game Loop and Logic](#game-loop-and-logic)
-- [Compiation and Execution](#compilation-and-execution)
+- [Compilation and Execution](#compilation-and-execution)
 - [Screenshot](#screenshot)
 - [Conclusion](#conclusion)
 - [License](#license)
