@@ -6,10 +6,6 @@
 
 # "THE SNAKE GAME" 
 
-# Snake Game in C++
-
-![Snake Game Screenshot](Screenshot%202025-02-10%20185727.png)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Game Components](#game-components)
