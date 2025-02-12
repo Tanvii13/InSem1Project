@@ -47,24 +47,41 @@ The game captures user input to control the movement of the snake. The snake can
 
 ## Code Explanation
 - Node Class
-  1.x,y : Coordinates of the node.
-  2.next : Pointer to the next node in the snake.
-  3.Constructor Initializes the coordinates and sets 'next' to 'nullptr'.
+1. x,y : Coordinates of the node.
+2. next : Pointer to the next node in the snake.
+3. Constructor Initializes the coordinates and sets 'next' to 'nullptr'.
   
 - Snake Class
-  1.head,tail : Pointers to the head and tail of the snake.
-  2.Constructor Initializes the snake with a single node.
-  3.add(int x,int y) : Adds a new node at the head.
-  4.remove() : Removes the tail node.
-  5.collision(int x,int y) : Checks if the given coordinates collides with any part of the snake.
+1. head,tail : Pointers to the head and tail of the snake.
+2. Constructor Initializes the snake with a single node.
+3. add(int x,int y) : Adds a new node at the head.
+4. remove() : Removes the tail node.
+5. collision(int x,int y) : Checks if the given coordinates collides with any part of the snake.
   
 - Food Class
-  1.x,y : Coordinates of the food.
-  2.Constructor generates new food at random coordinates.
-  3.newFood(int width, int height, Snake*snake) : Generates new food at random coordinates that do not collide with the snake.
+1. x,y : Coordinates of the food.
+2. Constructor generates new food at random coordinates.
+3. newFood(int width, int height, Snake*snake) : Generates new food at random coordinates that do not collide with the snake.
   
--GameBoard Class
+- GameBoard Class
+1. width,height : Dimensions of the game board.
+2. score : Current score of the game.
+3. snake : The snake object.
+4. food : The food object.
+5. gameOver() : Boolean to indicate if the game is over.
+6. dir : Current direction of the snake.
+7. Constructor Initializes the game board with a snake and food.
+8. Design() : Draws the game board.
+9. Input() : Handles user input for controlling the snake.
+10. Logic() : Contains the game logic for moving the snake, detecting collisions, and updating the score.
 
+- Main Function
+1. srand(time(0)) : Seeds the random number generator with the current time. This ensures that the positions for the food are different each time you run the game.
+2. GameBoard game(30,30) : Initializes a GameBoard object named game with a width and height of 30 units.
+3. game.Design() : This method draws the game board, showing the current state of the snake, the food, and the boundaries.
+4. game.Input() : This method checks for user input to control the snake's direction (left, right, up, down).
+5. game.Logic() : This method updates the game logic, such as moving the snake, checking for collisions, and eating food.
+6. sleep(500) : This function pauses the game loop for 500 milliseconds, making the snake move at a manageable speed for the player.
  
 ## Controls
 The game is controlled using the following keys:
