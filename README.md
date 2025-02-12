@@ -23,7 +23,9 @@
 - [License](#license)
 
 ## Introduction
-The Snake game is a classic arcade game where a player controls a snake that grows in length as it consumes food. The objective is to navigate the snake across a grid while avoiding collisions with the walls and itself. The game starts with a small snake, and as the player progresses, the difficulty increases as the snake grows longer, making movement more challenging.
+The Snake Game is a classic arcade game where the player controls a
+snake that grows in size as it consumes food. The game ends if the snake
+collides with itself or the boundaries of the play area. The game starts with a snake with 3 cells in length, and as the player progresses, the difficulty increases as the snake grows longer, making movement more challenging.
 
 ## Game Components
 The game consists of several key components that contribute to its functionality and gameplay experience.
