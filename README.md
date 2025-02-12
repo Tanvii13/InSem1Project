@@ -51,6 +51,7 @@ The game is controlled using the following keys:
 - u - Move Up
 - d - Move Down
 - t - Terminate the game
+- Eat the food '*' to grow longer and increase your score.
 
 ## Collision Detection
 Collisions occur when the snake either runs into the boundaries of the board or collides with itself. If a collision is detected, the game ends, and the final score is displayed. This mechanism ensures that the game remains challenging as the snake grows in size, making self-collision more likely.
@@ -70,9 +71,9 @@ The loop continues until the player either decides to quit or the game ends due 
 
 ## Requirements
 To run this project, you need:
-A C++ compiler (e.g., g++, MinGW)
-A terminal
-Windows
+-A C++ compiler (e.g., g++, MinGW)
+-A terminal
+-Windows
 
 ## Compilation and Execution
 To compile the program, use a C++ compiler like g++:
