@@ -179,7 +179,7 @@ int main() {
         game.Design();
         game.Input();
         game.Logic();
-        Sleep(800);
+        Sleep(500);
     }
     cout << "Game Over! Final Score: " << game.score << endl;
     return 0;
