@@ -17,6 +17,7 @@
 - [Collision Detection](#collision-detection)
 - [Score Tracking](#score-tracking)
 - [Game Loop and Logic](#game-loop-and-logic)
+- [Requirements](#requirements)
 - [Compilation and Execution](#compilation-and-execution)
 - [Screenshot](#screenshot)
 - [Conclusion](#conclusion)
@@ -66,6 +67,12 @@ The game operates within a loop that continuously updates the game state. The lo
 4. Checking for collisions with the walls or itself, and terminating the game if necessary.
 
 The loop continues until the player either decides to quit or the game ends due to a collision.
+
+## Requirements
+To run this project, you need:
+A C++ compiler (e.g., g++, MinGW)
+A terminal
+Windows
 
 ## Compilation and Execution
 To compile the program, use a C++ compiler like g++:
