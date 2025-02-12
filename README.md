@@ -14,7 +14,7 @@
   - [Game Board](#game-board)
   - [User Input and Movement](#user-input-and-movement)
 
-- [Code Explanation](#code_explanation)
+- [Code Explanation](#code-explanation)
 - [Controls](#controls)
 - [Collision Detection](#collision-detection)
 - [Score Tracking](#score-tracking)
@@ -47,22 +47,22 @@ The game captures user input to control the movement of the snake. The snake can
 
 ## Code Explanation
 - Node Class
+  1.x,y : Coordinates of the node.
+  2.next : Pointer to the next node in the snake.
+  3.Constructor Initializes the coordinates and sets 'next' to 'nullptr'.
   
-  x,y : Coordinates of the node.
-  next : Pointer to the next node in the snake.
-  Constructor Initializes the coordinates and sets 'next' to 'nullptr'.
 - Snake Class
+  1.head,tail : Pointers to the head and tail of the snake.
+  2.Constructor Initializes the snake with a single node.
+  3.add(int x,int y) : Adds a new node at the head.
+  4.remove() : Removes the tail node.
+  5.collision(int x,int y) : Checks if the given coordinates collides with any part of the snake.
   
-  head,tail : Pointers to the head and tail of the snake.
-  Constructor Initializes the snake with a single node.
-  add(int x,int y) : Adds a new node at the head.
-  remove() : Removes the tail node.
-  collision(int x,int y) : Checks if the given coordinates collides with any part of the snake.
 - Food Class
+  1.x,y : Coordinates of the food.
+  2.Constructor generates new food at random coordinates.
+  3.newFood(int width, int height, Snake*snake) : Generates new food at random coordinates that do not collide with the snake.
   
-  x,y : Coordinates of the food.
-  Constructor generates new food at random coordinates.
-  newFood(int width, int height, Snake*snake) : Generates new food at random coordinates that do not collide with the snake.
 -GameBoard Class
 
  
